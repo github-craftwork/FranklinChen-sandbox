@@ -7,5 +7,5 @@ jobs:
     steps:
     - name: hello-world
       run: hello "$NAME"
-    - env:
+      env:
         NAME: Mary
